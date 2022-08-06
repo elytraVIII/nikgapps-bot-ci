@@ -1,0 +1,22 @@
+name: nikgapps ci
+
+on:
+  workflow_dispatch:
+    inputs:
+      string:
+        required: true
+      id:
+        required: true
+
+jobs:
+  make_artifacts:
+   runs-on: ubuntu-latest
+
+   steps:
+     - name: prepare Environment
+       run: |
+            null
+
+     - name: make artifacts
+       run: |
+            null
