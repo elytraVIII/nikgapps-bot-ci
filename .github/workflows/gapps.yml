@@ -20,3 +20,7 @@ jobs:
      - name: make artifacts
        run: |
             null
+            
+     - name: ping telegram
+       run: |
+            null
